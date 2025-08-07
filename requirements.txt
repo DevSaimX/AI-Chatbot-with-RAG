@@ -1,0 +1,35 @@
+# Core Framework
+streamlit==1.31.1
+
+# LangChain core + integrations
+langchain==0.1.14
+langchain-community==0.0.29
+langchain-huggingface==0.0.3
+
+# Embeddings
+sentence-transformers==2.2.2
+huggingface-hub==0.22.2
+
+# Vector Store
+faiss-cpu==1.7.4
+
+# Transformers for LLMs
+transformers==4.39.3
+torch>=2.0
+
+# PDF Loaders
+pypdf==4.2.0
+unstructured==0.12.6
+pdfminer.six==20221105
+pi-heif==0.7.0
+unstructured-inference==0.7.17
+
+# Optional: accelerate local model loading (e.g., for quantized models)
+accelerate==0.27.2
+
+# Fix numpy / scikit-learn compatibility (if needed)
+numpy==1.24.4
+scikit-learn==1.3.2
+
+# Other useful utilities
+python-dotenv==1.0.1
