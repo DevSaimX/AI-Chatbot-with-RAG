@@ -1,0 +1,76 @@
+Below are the top 5 open-source large language models (LLMs) as of 2024–2025, including developers, model sizes, core strengths, and how they compare to closed commercial models like OpenAI’s GPT-4:
+
+## 1. Meta Llama 3.1 / 405B
+
+- **Developer:** Meta (Facebook)
+- **Model Sizes:** 8B, 70B, and 405B parameters.[1][2]
+- **Strengths:**
+  - The new 405B version is the world’s largest openly released LLM.
+  - Excels in general knowledge, mathematical reasoning, long-form context retention (128,000 tokens), and multilingual support.
+  - State-of-the-art tool use, capable of advanced summarization, translation, and code generation.
+  - Community-friendly license for research and development (some restrictions for pure commercial usage).
+- **Comparison to GPT-4:**
+  - Llama 3.1 405B approaches GPT-4-level general-purpose abilities, especially in multilingual and reasoning tasks.
+  - While GPT-4o still outpaces open models in some edge-case reasoning, Llama’s open weights and fine-tuning ability make it a top choice for organizations wanting control and transparency.[2][1]
+
+## 2. Mistral Large 2 (and Large 2.1)
+
+- **Developer:** Mistral AI
+- **Model Size:** 123B parameters.[3][4][5]
+- **Strengths:**
+  - Dense transformer architecture, optimized for code generation, math, multilingual tasks (supports 80+ languages).
+  - Outstanding performance on key benchmarks (e.g., 84% MMLU accuracy).
+  - Instruction fine-tuned and supports advanced reasoning, long-context windows.
+  - Commercial and research licenses available; easy API and cloud deployment.
+- **Comparison to GPT-4:**
+  - Mistral Large 2.1 rivals the reasoning and coding powers of GPT-4o and Claude 3 Opus for most enterprise and developer use cases, at a fraction of the cost and with much more customization freedom.[4][3]
+
+## 3. DeepSeek R1
+
+- **Developer:** DeepSeek AI
+- **Model Size:** (Notably large, exact parameter count varies with versions—often 67B and higher).[6]
+- **Strengths:**
+  - Excels at logical inference, step-by-step explanations, technical and scientific problem-solving.
+  - MoE (Mixture of Experts) architecture for efficiency.
+  - Transparent reasoning: outputs traceable logic chains, making it ideal for research, legal, and technical domains.
+  - 128K token context window and strong cross-domain performance.
+- **Comparison to GPT-4:**
+  - In reasoning and transparency, DeepSeek R1 sometimes surpasses GPT-4 on tasks needing explicit step-by-step logic, though GPT-4o remains superior in high-level generalization and creative writing.[7][6]
+
+## 4. Qwen (Qwen 3)
+
+- **Developer:** Alibaba Cloud
+- **Model Sizes:** 72B and up (with Qwen 3 suite being the latest).[8]
+- **Strengths:**
+  - Large training corpus, very strong in code generation, math, and language understanding.
+  - Supports broad multilingual tasks; pre-trained on almost double the data compared to previous Qwen generations.
+  - Permissive, research-friendly licensing.
+- **Comparison to GPT-4:**
+  - Qwen 3 models match or beat GPT-4 on many specialized tasks (especially in code and mathematical domains) and provide a highly customizable, transparent infrastructure.[9][8]
+
+## 5. BLOOM
+
+- **Developer:** BigScience (collaboration with Hugging Face and others)
+- **Model Size:** 176B parameters.[10][1]
+- **Strengths:**
+  - Comprehensive multilingual support—46 natural languages, 13 programming languages.
+  - Built for transparency, research access, and ethical use (Responsible AI License).
+  - Focused on democratizing LLM access, with a large, community-driven training effort.
+- **Comparison to GPT-4:**
+  - While BLOOM lags behind GPT-4o on top English-language benchmarks, it is often preferred for multilingual and openness requirements. It remains unmatched in breadth of supported languages among open models.[10][1]
+
+## How Open-Source Models Compare to GPT-4/GPT-4o
+
+| Feature                 | Llama 3.1 405B       | Mistral Large 2 | DeepSeek R1   | Qwen 3        | BLOOM         | GPT-4/GPT-4o (Closed)                   |
+|-------------------------|----------------------|-----------------|--------------|--------------|--------------|-----------------------------------------|
+| Developer               | Meta                 | Mistral AI      | DeepSeek AI  | Alibaba      | BigScience    | OpenAI                                  |
+| Largest Size            | 405B                 | 123B            | 67B–?        | 72B+         | 176B          | ~1T (undisclosed)                       |
+| Context Window          | 128K                 | 128K+           | 128K         | Large        | 8K–32K        | 128K                                    |
+| Multilingual            | Yes                  | Yes             | Yes          | Yes          | Yes           | Yes                                     |
+| Licensing               | Open (non-commercial/commercial) | Open/Commercial | Open         | Open          | Open (RAIL)     | Proprietary, API only                   |
+| Customization           | Full (weights, tuning)| Full           | Full         | Full         | Full          | Very limited (API params)               |
+| Key Edge vs. GPT-4o     | Transparency, open access| Cost, tuning   | Stepwise reasoning| Multilingual, code| Languages| Closed model, highest overall accuracy  |
+
+**Summary:**  
+Open-source LLMs like Meta’s Llama 3.1 405B and Mistral Large 2 now rival or nearly match GPT-4/GPT-4o for most business, research, and development applications. Closed models remain slightly ahead in creative generalization, nuance, and “out-of-the-box” safety/alignment, but open LLMs offer superior customization, privacy, and cost-efficiency. For many use cases, especially where transparency and adaptability matter, these open LLMs are now preferred over proprietary offerings.[8][3][2][6][10]
+
